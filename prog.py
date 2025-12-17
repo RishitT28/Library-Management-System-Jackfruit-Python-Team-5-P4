@@ -1,11 +1,7 @@
 # ==================================
 # Library Management System
-# Prepared & Preloaded Version
-# ==================================
 
-# ------------------------------
-# Global Data Storage
-# ------------------------------
+
 books = []
 users = []
 issued_books = []
@@ -227,10 +223,10 @@ def load_data():
     # Users
     users.extend([
         {"id": "admin1", "name": "Alice", "role": "admin"},
-        {"id": "lib1", "name": "Bob", "role": "librarian"},
-        {"id": "lib2", "name": "Carol", "role": "librarian"},
-        {"id": "mem1", "name": "David", "role": "member"},
-        {"id": "mem2", "name": "Eva", "role": "member"}
+        {"id": "lib1", "name": "Aryan", "role": "librarian"},
+        {"id": "lib2", "name": "Ashish", "role": "librarian"},
+        {"id": "mem1", "name": "Ritesh", "role": "member"},
+        {"id": "mem2", "name": "Rishi", "role": "member"}
     ])
 
     # Books
@@ -264,5 +260,4 @@ def main():
             print("Invalid choice.")
             pause()
 
-# Run Program
 main()
